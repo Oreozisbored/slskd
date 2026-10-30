@@ -1,3 +1,9 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@background: var(--smui-popup-background, @white);
+@color: var(--smui-popup-color, @textColor);
+@border: var(--smui-popup-border, @borderWidth solid @borderColor);
+@boxShadow: var(--smui-popup-box-shadow, @floatingShadow);
+@arrowColor: var(--smui-popup-arrow-color, #bababc);

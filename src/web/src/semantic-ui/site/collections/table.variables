@@ -12,6 +12,8 @@
 @footerBackground: var(--smui-table-footer-background,@offWhite);
 @footerColor: var(--smui-table-footer-color,@textColor);
 
+@basicTableCellBorder: 1px solid var(--smui-table-border-color, rgba(0, 0, 0, 0.1));
+
 @selectableTextColor: var(--smui-table-color, @textColor);
 @selectableBackgroundColor: var(--smui-table-selectable-background-color, @textColor);
 
